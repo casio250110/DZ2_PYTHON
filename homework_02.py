@@ -8,4 +8,5 @@ result = []
 
 for i in range(1,n+1):
     result.append((1+1/i)**i)
-
+# print('%.2f' % '*result')
+print('{:.2f}'.format(result))
