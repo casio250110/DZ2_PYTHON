@@ -3,11 +3,11 @@
 # Для n=4 -> [2, 2.25, 2.37, 2.44]
 # Сумма 9.06
 
-import math
+
 n = int(input('Введите число: '))
 result = []
 
 for i in range(1,n+1):
     result.append(round((1+1/i)**i,2))
 print(result)
-print(math.fsum(result))
+print(sum(result))
